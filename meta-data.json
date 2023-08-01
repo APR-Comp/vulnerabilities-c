@@ -12,9 +12,9 @@
         "crash_input": "--dyn-syms $POC",
         "exploit_file_list": ["tests/1.bin"],
         "test_timeout": 5,
-        "config_command": "config_subject",
-        "build_command": "build_subject",
-        "test_command": "run_test",
+        "config_script": "config_subject",
+        "build_script": "build_subject",
+        "test_script": "run_test",
         "bug_type": "Buffer Overflow"
     },
     {
