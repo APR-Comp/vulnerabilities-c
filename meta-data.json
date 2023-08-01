@@ -30,9 +30,9 @@
         "crash_input": "--input $POC --output output.jp2 --output-format jpc -O numrlvls=40",
         "exploit_file_list": ["tests/1.pgx"],
         "test_timeout": 5,
-        "config_command": "config_subject",
-        "build_command": "build_subject",
-        "test_command": "run_test",
+        "config_script": "config_subject",
+        "build_script": "build_subject",
+        "test_script": "run_test",
         "bug_type": "Buffer Overflow"
     },
     {
@@ -48,9 +48,9 @@
         "crash_input": "-i $POC out.tiff",
         "exploit_file_list": ["tests/1.tiff"],
         "test_timeout": 5,
-        "config_command": "config_subject",
-        "build_command": "build_subject",
-        "test_command": "run_test",
+        "config_script": "config_subject",
+        "build_script": "build_subject",
+        "test_script": "run_test",
         "bug_type": "Buffer Overflow"
     },
     {
@@ -66,9 +66,9 @@
         "crash_input": "--html $POC",
         "exploit_file_list": ["tests/1.txt"],
         "test_timeout": 5,
-        "config_command": "config_subject",
-        "build_command": "build_subject",
-        "test_command": "run_test",
+        "config_script": "config_subject",
+        "build_script": "build_subject",
+        "test_script": "run_test",
         "bug_type": "Buffer Overflow"
     }
 ]
