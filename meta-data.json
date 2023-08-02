@@ -2,6 +2,7 @@
   {
         "id": 1,
         "subject": "binutils",
+        "language": "C",
         "bug_id": "CVE-2021-20294",
         "source_file": "binutils/readelf.c",
         "failing_test": "1",
@@ -20,6 +21,7 @@
     {
         "id": 2,
         "subject": "jasper",
+        "language": "C",
         "bug_id": "CVE-2020-27828",
         "source_file": "src/libjasper/jpc/jpc_enc.c",
         "failing_test": "1",
@@ -38,6 +40,7 @@
     {
         "id": 3,
         "subject": "libtiff",
+        "language": "C",
         "bug_id": "CVE-2016-10268",
         "source_file": "tools/tiffcp.c",
         "failing_test": "1",
@@ -56,6 +59,7 @@
     {
         "id": 4,
         "subject": "libxml2",
+        "language": "C",
         "bug_id": "CVE-2016-1833",
         "source_file": "parserInternals.c",
         "failing_test": "1",
